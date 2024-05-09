@@ -69,17 +69,14 @@ g.addVertex('A');
 g.addVertex('B');
 g.addVertex('C');
 g.addVertex('D');
-g.addVertex('E');
-g.addVertex('F');
+
 
 g.addEdge('A','B',4);
 g.addEdge('A','C',2);
 g.addEdge('B','C',5);
 g.addEdge('B','D',10);
 g.addEdge('D','C',3);
-g.addEdge('E','F',9);
-g.addEdge('D','E',1);
-g.addEdge('C','F',6);
+
 
 
 g.dijkstra('A')
